@@ -11,12 +11,12 @@
  * csswizardry.com/2012/06/single-direction-margin-declarations
  */
 h1, h2, h3, h4, h5, h6,
-ul, ol, dl,
-blockquote, p, address,
+p, blockquote, pre, address,
+dl, ol, ul,
+fieldset,
+figure,
 hr,
-table,
-fieldset, figure,
-pre {
+table {
   margin-bottom: $inuit-global-spacing-unit;
 }
 
